@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../user'
 
 @Component({
   selector: 'app-repo',
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RepoComponent implements OnInit {
 
+  user?:User;
+
+  title = "user q"
   constructor() { }
 
   ngOnInit(): void {
